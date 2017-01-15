@@ -2,9 +2,9 @@
 #![plugin(rocket_codegen)]
 
 use std::path::{Path, PathBuf};
-use rocket::response::NamedFile;
 
 extern crate rocket;
+use rocket::response::NamedFile;
 
 #[get("/files/<file..>")]
 fn files(file: PathBuf) -> Option<NamedFile> {
