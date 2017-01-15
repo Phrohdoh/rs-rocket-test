@@ -1,0 +1,9 @@
+[package]
+name = "rocket-test"
+version = "0.1.0"
+license = "MIT"
+authors = ["Taryn Hill <taryn@phrohdoh.com>"]
+
+[dependencies]
+rocket = "0.1.5"
+rocket_codegen = "0.1.5"
